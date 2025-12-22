@@ -8,9 +8,9 @@ permalink: /resume/
 
 Below is my resume. I will upload a PDF resume to assets/resume/resume.pdf and it will display here.
 
-[Download my resume](/assets/resume/resume.pdf){:target="_blank"}
-
 <!-- If you upload assets/resume/resume.pdf it will show when someone clicks the link above.
      To embed the PDF on the page (if supported by the browser), add an iframe like this:
 <iframe src="/assets/resume/resume.pdf" style="width:100%; height:800px;" title="Resume"></iframe>
 -->
+
+---

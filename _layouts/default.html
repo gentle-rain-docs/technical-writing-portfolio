@@ -1,56 +1,33 @@
-# Site settings
-title: Technical Writing Portfolio
-description: Welcome to my technical writing portfolio! 
-url: "https://gentle-rain-docs.github.io"
-# NOTE: baseurl must match the repo/project name used in your Pages URL.
-# Your repo is named "technical-writing-portfoilo" (with the typo), so match it here
-# OR rename the repository to "technical-writing-portfolio" and keep the original baseurl.
-baseurl: "/technical-writing-portfoilo" # leave empty unless this is a project site
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/style.scss" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" type="image/x-icon">
+</head>
+<body>
+  <header class="site-header">
+    <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+    <nav class="site-nav">
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/writing-samples" | relative_url }}">Writing Samples</a>
+      <a href="{{ "/resume" | relative_url }}">Resume</a>
+      <!-- Add your LinkedIn and GitHub links here -->
+      <a href="https://www.linkedin.com/in/kilitaylor" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/gentle-rain-docs" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
 
-# Author
-author:
-  name: Kili Taylor
-  email: kili.taylor@protonmail.com
+  <main class="site-main">
+    {{ content }}
+  </main>
 
-# Theme
-remote_theme: hitchens-theme
-
-sass:
-  style: compressed
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-# GitHub Pages–approved plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Permalinks
-permalink: /:title/
-
-# Navigation (top menu)
-nav:
-  - title: Home
-    url: /home/
-  - title: Writing Samples
-    url: /writing-samples/
-  - title: Resume
-    url: /resume/
-  - title: About
-    url: /about/
-
-# Social links (used by theme if present)
-social:
-  github: https://github.com/gentle-rain-docs
-  linkedin: https://linkedin.com/in/kilitaylor
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
+  <footer class="site-footer">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>

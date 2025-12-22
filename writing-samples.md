@@ -29,3 +29,5 @@ permalink: /writing-samples/
 > - writing-samples/apis/sample-api-getting-started/index.md
 > - writing-samples/how-to/setup-product/index.md
 > Use front matter (layout: page, title: ...) and the page will automatically be linked here.
+
+---
