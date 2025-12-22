@@ -3,6 +3,18 @@ layout: home
 title: Home
 ---
 
-Hello and welcome! I’m Kili Taylor, a beginner technical writer with over 5 years experience as a help desk technician.
+## Welcome
 
-This is my technical writing portfolio where I will feature my writing samples.
+Welcome to my Technical Writing Portfolio. Here you’ll find writing samples across API documentation, how‑to guides, troubleshooting articles, and UX writing.
+
+---
+
+## About Me
+
+### Kili Taylor
+
+I’m a beginner technical writer with over 5 years of experience as a help desk technician. I write clear, user-focused documentation that helps people get productive quickly. This site contains samples of my work organized by type: API docs, how‑to guides, troubleshooting articles, and UX writing.
+
+(You can expand this section with details about tools, education, or links to your contact info.)
+
+---

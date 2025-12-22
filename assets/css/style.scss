@@ -36,15 +36,14 @@ header.site-header {
   font-family: $font-stack;
   padding: 1rem;
 
-  a {
-    color: white;
-    margin-right: 1rem;
+/* Header links */
+header.site-header a {
+  color: #fff !important;
+}
 
-    &:hover,
-    &:focus {
-      color: $color-light-purple;
-    }
-  }
+header.site-header a:hover,
+header.site-header a:focus {
+  color: var(--brand-light-purple) !important;
 }
 
 /* Navigation links */
@@ -52,16 +51,15 @@ nav.site-nav a {
   color: $color-indigo;
   font-weight: 600;
 
-  &:hover,
-  &:focus {
-    color: $color-light-purple;
-  }
+nav.site-nav a:hover,
+nav.site-nav a:focus {
+  color: var(--brand-light-purple) !important;
 }
 
 /* Page titles */
 h1, h2, h3, h4, h5, h6 {
-  color: $color-indigo;
-  font-family: $font-stack;
+  color: var(--brand-indigo) !important;
+  font-family: var(--body-font) !important;
 }
 
 /* Footer (if any) */
@@ -75,12 +73,13 @@ footer.site-footer {
 
 /* Buttons or call-to-action links (if used) */
 .button, .btn {
-  background-color: $color-indigo;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: 600;
-  text-decoration: none;
+  background-color: var(--brand-indigo) !important;
+  color: #fff !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
 
   &:hover,
   &:focus {

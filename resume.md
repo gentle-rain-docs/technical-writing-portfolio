@@ -4,36 +4,13 @@ title: Resume
 permalink: /resume/
 ---
 
-## Kili Taylor
+## Resume
 
-## Technical Writer
+Below is my resume. I will upload a PDF resume to assets/resume/resume.pdf and it will display here.
 
-📧 <kili.taylor@protonmail.com>  
-🔗 <https://www.linkedin.com/in/kilitaylor>
-💻 <https://github.com/gentle-rain-docs>
-
----
-
-### Skills
-
-- Technical documentation
-- API documentation
-- Markdown / Git
-- Information architecture
-- UX writing
+<!-- If you upload assets/resume/resume.pdf it will show when someone clicks the link above.
+     To embed the PDF on the page (if supported by the browser), add an iframe like this:
+<iframe src="/assets/resume/resume.pdf" style="width:100%; height:800px;" title="Resume"></iframe>
+-->
 
 ---
-
-### Experience
-
-**Technical Writer** – Company Name  
-*2023–Present*
-
-- Created and maintained product documentation
-- Collaborated with engineering and product teams
-
----
-
-### Education
-
-**Degree** – Institution
