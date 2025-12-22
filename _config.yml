@@ -2,14 +2,18 @@
 title: Kili Taylor
 description: Welcome to my technical writing portfolio! 
 url: "https://gentle-rain-docs.github.io"
-baseurl: "/technical-writing-portfolio" # leave empty unless this is a project site
+# NOTE: baseurl must match the repo/project name used in your Pages URL.
+# Your repo is named "technical-writing-portfoilo" (with the typo), so match it here
+# OR rename the repository to "technical-writing-portfolio" and keep the original baseurl.
+baseurl: "/technical-writing-portfoilo" # leave empty unless this is a project site
 
 # Author
 author:
   name: Kili Taylor
   email: kili.taylor@protonmail.com
 
-# Theme
+# Theme - you can keep remote_theme or switch to a gem-based theme.
+# If you want to use a remote theme, ensure the remote_theme string is correct.
 remote_theme: hitchens-theme
 
 sass:
