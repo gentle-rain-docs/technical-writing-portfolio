@@ -10,7 +10,7 @@ author:
   email: kili.taylor@protonmail.com
 
 # Theme
-remote_theme: patdryburgh/hitchens
+remote_theme: hitchens-theme
 
 sass:
   style: compressed
