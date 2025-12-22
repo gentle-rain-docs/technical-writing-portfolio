@@ -1,9 +1,8 @@
 ---
-layout: home
-title: Home
+layout: default
 ---
 
-## Welcome
+# Welcome
 
 Welcome to my Technical Writing Portfolio. Here you’ll find writing samples across API documentation, how‑to guides, troubleshooting articles, and UX writing.
 

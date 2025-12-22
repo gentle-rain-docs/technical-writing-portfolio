@@ -1,41 +1,30 @@
-# Site settings
 title: Kili Taylor
-description: Welcome to my technical writing portfolio! 
+description: Welcome to my technical writing portfolio!
 url: "https://gentle-rain-docs.github.io"
-# NOTE: baseurl must match the repo/project name used in your Pages URL.
-# Your repo is named "technical-writing-portfoilo" (with the typo), so match it here
-# OR rename the repository to "technical-writing-portfolio" and keep the original baseurl.
-baseurl: "/technical-writing-portfoilo" # leave empty unless this is a project site
+baseurl: "/technical-writing-portfoilo"
 
-# Author
 author:
   name: Kili Taylor
   email: kili.taylor@protonmail.com
 
-# Theme - you can keep remote_theme or switch to a gem-based theme.
-# If you want to use a remote theme, ensure the remote_theme string is correct.
-remote_theme: hitchens-theme
+remote_theme: patdryburgh/hitchens
 
 sass:
   style: compressed
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 
-# GitHub Pages–approved plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Permalinks
 permalink: /:title/
 
-# Navigation (top menu)
 nav:
   - title: Home
-    url: /home/
+    url: /
   - title: Writing Samples
     url: /writing-samples/
   - title: Resume
@@ -43,12 +32,10 @@ nav:
   - title: About
     url: /about/
 
-# Social links (used by theme if present)
 social:
   github: https://github.com/gentle-rain-docs
   linkedin: https://linkedin.com/in/kilitaylor
 
-# Defaults
 defaults:
   - scope:
       path: ""
