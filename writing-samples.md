@@ -4,20 +4,28 @@ title: Writing Samples
 permalink: /writing-samples/
 ---
 
-## Documentation
+## API Documentation
 
-- **Product Setup Guide** – Clear onboarding documentation for new users  
-- **API Reference** – REST API documentation with examples  
-- **Troubleshooting Guide** – Step-by-step issue resolution  
+- [Sample API Reference — Getting Started](/writing-samples/apis/sample-api-getting-started/)  
+- [Sample API Reference — Endpoints](/writing-samples/apis/sample-api-endpoints/)
 
-## Knowledge Base Articles
+## How‑To Guides
 
-- How to reset user credentials
-- Understanding system error codes
+- [How to Set Up the Product](/writing-samples/how-to/setup-product/)  
+- [How to Reset Your Credentials](/writing-samples/how-to/reset-credentials/)
 
-## UX Writing
+## Troubleshooting & Knowledge Base
 
-- In-app microcopy samples
-- Error message rewrites
+- [Troubleshooting: Common Connection Errors](/writing-samples/troubleshooting/connection-errors/)  
+- [Knowledge Base: Error Codes Explained](/writing-samples/troubleshooting/error-codes/)
 
-> Links can point to PDFs, GitHub repos, or live documentation.
+## UX Writing & Microcopy
+
+- [In-app Microcopy Examples](/writing-samples/ux/microcopy-examples/)  
+- [Error Message Rewrites](/writing-samples/ux/error-messages/)
+
+> Tip: To publish an article, create a file at the corresponding path, for example:
+>
+> - writing-samples/apis/sample-api-getting-started/index.md
+> - writing-samples/how-to/setup-product/index.md
+> Use front matter (layout: page, title: ...) and the page will automatically be linked here.

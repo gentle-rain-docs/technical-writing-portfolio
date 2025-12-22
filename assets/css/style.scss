@@ -1,90 +1,87 @@
-// Custom colors
+/* Custom colors */
 $color-indigo: #4B0082;
 $color-light-purple: #B19CD9;
 $color-grey: #6B7280;
 
-// Font stack - clean, accessible sans-serif
+/* Font stack */
 $font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
   Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
-// Import the Hitchens theme styles first
+/* Import the Hitchens theme styles first (if available to Jekyll) */
 @import "jekyll-theme-hitchens";
 
-// Override body font
+/* Use CSS variables for extra safety */
+:root {
+  --brand-indigo: #{$color-indigo};
+  --brand-light-purple: #{$color-light-purple};
+  --brand-grey: #{$color-grey};
+  --body-font: #{$font-stack};
+}
+
+/* Ensure body styles are applied */
 body {
-  font-family: $font-stack;
-  color: $color-grey;
-  background-color: #fff;
+  font-family: var(--body-font) !important;
+  color: var(--brand-grey) !important;
+  background-color: #fff !important;
 }
 
-// Links
-a {
-  color: $color-indigo;
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    color: $color-light-purple;
-    text-decoration: underline;
-  }
+/* Header — increase specificity and force our color */
+header.site-header,
+html body header.site-header {
+  background-color: var(--brand-indigo) !important;
+  color: #fff !important;
+  font-family: var(--body-font) !important;
+  padding: 1rem !important;
 }
 
-// Header styles
-header.site-header {
-  background-color: $color-indigo;
-  color: white;
-  font-family: $font-stack;
-  padding: 1rem;
-
-  a {
-    color: white;
-    margin-right: 1rem;
-
-    &:hover,
-    &:focus {
-      color: $color-light-purple;
-    }
-  }
+/* Header links */
+header.site-header a {
+  color: #fff !important;
 }
 
-// Navigation links
-nav.site-nav a {
-  color: $color-indigo;
-  font-weight: 600;
-
-  &:hover,
-  &:focus {
-    color: $color-light-purple;
-  }
+header.site-header a:hover,
+header.site-header a:focus {
+  color: var(--brand-light-purple) !important;
 }
 
-// Page titles
+/* Navigation links */
+nav.site-nav a,
+header .site-nav a {
+  color: var(--brand-indigo) !important;
+  font-weight: 600 !important;
+}
+
+nav.site-nav a:hover,
+nav.site-nav a:focus {
+  color: var(--brand-light-purple) !important;
+}
+
+/* Page titles */
 h1, h2, h3, h4, h5, h6 {
-  color: $color-indigo;
-  font-family: $font-stack;
+  color: var(--brand-indigo) !important;
+  font-family: var(--body-font) !important;
 }
 
-// Footer (if any)
-footer.site-footer {
-  background-color: $color-grey;
-  color: white;
-  padding: 1rem;
-  font-size: 0.9rem;
-  text-align: center;
+/* Footer */
+footer.site-footer,
+html body footer.site-footer {
+  background-color: var(--brand-grey) !important;
+  color: #fff !important;
+  padding: 1rem !important;
+  text-align: center !important;
 }
 
-// Buttons or call-to-action links (if used)
+/* Buttons or call-to-action links */
 .button, .btn {
-  background-color: $color-indigo;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-weight: 600;
-  text-decoration: none;
+  background-color: var(--brand-indigo) !important;
+  color: #fff !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
 
-  &:hover,
-  &:focus {
-    background-color: $color-light-purple;
-    color: white;
-  }
+.button:hover, .btn:hover {
+  background-color: var(--brand-light-purple) !important;
+  color: #fff !important;
 }
