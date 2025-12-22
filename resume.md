@@ -5,15 +5,17 @@ permalink: /resume/
 ---
 
 ## Kili Taylor
-**Technical Writer**
 
-📧 youremail@example.com  
-🔗 https://www.linkedin.com/in/kilitaylor 
-💻 https://github.com/gentle-rain-docs
+## Technical Writer
+
+📧 <kili.taylor@protonmail.com>  
+🔗 <https://www.linkedin.com/in/kilitaylor>
+💻 <https://github.com/gentle-rain-docs>
 
 ---
 
 ### Skills
+
 - Technical documentation
 - API documentation
 - Markdown / Git
@@ -23,6 +25,7 @@ permalink: /resume/
 ---
 
 ### Experience
+
 **Technical Writer** – Company Name  
 *2023–Present*
 
@@ -32,4 +35,5 @@ permalink: /resume/
 ---
 
 ### Education
+
 **Degree** – Institution
