@@ -1,4 +1,4 @@
-Clear cookies for any website
+# Clear cookies for any website
 
 To delete cookies and site data for any single website:
 
