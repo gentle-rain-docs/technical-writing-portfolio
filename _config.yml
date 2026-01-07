@@ -1,19 +1,10 @@
 title: Kili Taylor
-description: Welcome to my technical writing portfolio!
-social:
-  github: gentle-rain-docs
-  linkedin: kilitaylor
+description: Welcome to my technical writing portfolio
+
 url: "https://gentle-rain-docs.github.io"
-baseurl: "/technical-writing-portfolio"
+baseurl: "/technical-writing-portfoilo"
 
-author:
-  name: Kili Taylor
-  email: kili.taylor@protonmail.com
-  
 theme: minima
-
-sass:
-  style: compressed
 
 markdown: kramdown
 highlighter: rouge
@@ -21,10 +12,3 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-
-nav:
-  - title: Writing Samples
-    url: /writing-samples.html
-  - title: Resume
-    url: /resume.html
