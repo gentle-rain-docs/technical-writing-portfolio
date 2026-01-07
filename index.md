@@ -1,19 +1,21 @@
 ---
 layout: default
+title: Home
 ---
 
-# Welcome
+# Technical Writing Portfolio
 
-Welcome to my Technical Writing Portfolio. Here you’ll find writing samples across API documentation, how‑to guides, troubleshooting articles, and UX writing.
-
----
+Welcome to my technical writing portfolio. This site contains writing samples that demonstrate my approach to creating clear, user-focused documentation.
 
 ## About Me
 
 ### Kili Taylor
 
-I’m a beginner technical writer with over 5 years of experience as a help desk technician. I write clear, user-focused documentation that helps people get productive quickly. This site contains samples of my work organized by type: API docs, how‑to guides, troubleshooting articles, and UX writing.
+I am transitioning into technical writing after more than five years working in help desk and technical support roles. In those roles, I regularly documented procedures, resolved user issues, and translated technical information into clear, practical guidance.
 
-(You can expand this section with details about tools, education, or links to your contact info.)
+This portfolio includes writing samples across several documentation types, including API walkthroughs, how-to guides, and troubleshooting articles. These samples reflect my learning process, my attention to clarity, and my focus on helping users complete tasks successfully.
 
----
+## Explore the Portfolio
+
+- [Writing Samples](writing-samples.md)
+- [Resume](resume.md)
