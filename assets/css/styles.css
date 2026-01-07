@@ -91,3 +91,33 @@ code {
   background-color: #f3f4f6;
   border-radius: 4px;
 }
+/* Resume header */
+.resume-header {
+  background-color: #e6dbf5; /* lavender */
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.resume-header h1 {
+  margin: 0;
+  color: #4b0082;
+}
+
+.resume-header p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+/* Job experience blocks */
+.job-block {
+  background-color: #e6f4ef; /* mint green */
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  border-left: 4px solid #4b0082;
+}
+
+.job-block h3 {
+  margin-top: 0;
+}
