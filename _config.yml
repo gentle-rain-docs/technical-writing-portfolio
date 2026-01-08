@@ -2,8 +2,6 @@ title: Technical Writing Portfolio
 description: A collection of my technical writing samples.
 theme: minima
 
-# Optional but nice to have
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyl-seo-tag
