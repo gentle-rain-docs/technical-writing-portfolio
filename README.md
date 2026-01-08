@@ -1,7 +1,7 @@
-# technical-writing-portfoilo
+# Technical Writing Portfolio
 
- This portfolio will contain my technical writing samples.
+This repository contains my technical writing portfolio, including API documentation, user guides, and process documentation.
 
- This is my first time using Git, Github, and text editors. There will be mistakes but as time goes on I hope to create a solid portfolio site to show case my works.
+This is my first time using Git, GitHub, and text editors. I expect to make mistakes, but I’m committed to learning and building a strong portfolio to showcase my work.
 
- I am currently a help desk technician, branching out, and seeing if I can find a foot hold in technical writing.
+I am currently a help desk technician exploring opportunities in technical writing.
