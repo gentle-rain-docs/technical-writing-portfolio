@@ -1,50 +1,7 @@
-# Site settings
-title: Kili Taylor
-description: Technical Writer | Documentation | API Guides | UX Writing
-url: "https://yourusername.github.io"
-baseurl: "" # leave empty unless this is a project site
+title: Technical Writing Portfolio
+description: A collection of my technical writing samples.
+theme: minima
 
-# Author
-author:
-  name: Kili Taylor
-  email: kili.taylor@protonmail.com
-
-# Theme
-remote_theme: patdryburgh/hitchens
-
-# Build settings
 markdown: kramdown
-highlighter: rouge
-
-# GitHub Pages–approved plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Permalinks
-permalink: /:title/
-
-# Navigation (top menu)
-nav:
-  - title: Home
-    url: /
-  - title: Writing Samples
-    url: /writing-samples/
-  - title: Resume
-    url: /resume/
-  - title: About
-    url: /about/
-
-# Social links (used by theme if present)
-social:
-  github: https://github.com/gentle-rain-docs
-  linkedin: https://linkedin.com/in/kilitaylor
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post

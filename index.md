@@ -1,9 +1,22 @@
 ---
 layout: home
-title: Home
+title: Technical Writing Portfolio
 ---
 
-Hello and welcome! I’m Kili Taylor, a beginner technical writer with over 5 years experience as a help desk technician. 
+Welcome to my technical writing portfolio.
 
-This is my technical writing portfolio where I will feature my writing samples. 
- 
+Here you’ll find selected samples of my work, including:
+
+- API documentation  
+- User guides  
+- Process documentation  
+- Other technical writing projects  
+
+---
+
+## Projects
+
+### PokeAPI Widget Demo
+**Summary:** A simple demonstration of API documentation and UI explanation.
+
+[View PokeAPI widget demo](api-demos/pokeapi-widget.html)
