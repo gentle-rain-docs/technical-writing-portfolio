@@ -12,8 +12,6 @@ Here you’ll find selected samples of my work, including:
 - Process documentation
 - Other technical writing projects
 
-[View my projects](#projects)
-
 ---
 
 ## Projects {#projects}
@@ -22,10 +20,4 @@ Here you’ll find selected samples of my work, including:
 
 **Summary:** Brief description of what this project demonstrates.
 
-[Read the documentation](api-demos/pokeapi-widget.html)
-
-### Project 2 – Example User Guide
-
-**Summary:** Brief description of the guide and audience.
-
-[Open the guide](guides/example-user-guide.html)
+[View PokeAPI widget demo](api-demos/pokeapi-widget.html)
