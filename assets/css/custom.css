@@ -28,4 +28,14 @@ hr {
   background-color: rgba(230, 244, 239, 0.06);
   padding: 1.25rem;
   border-radius: 6px;
+   
+   nav a {
+  color: #e4d9ff;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #b9f2e5;
+}
+
 }
