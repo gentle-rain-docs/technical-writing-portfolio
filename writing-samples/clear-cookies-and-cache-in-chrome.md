@@ -1,8 +1,7 @@
 ---
-layout: page
-title: How to clear cookies for Chrome. 
+layout: default
+title: "Clear Cookies and Cache in Chrome"
 ---
-
 
 # Clear cookies for Chrome. 
 
