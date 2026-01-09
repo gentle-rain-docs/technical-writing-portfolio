@@ -1,4 +1,10 @@
-# Clear cookies for any website
+---
+layout: page
+title: How to clear cookies for Chrome. 
+---
+
+
+# Clear cookies for Chrome. 
 
 ## In Chrome
 
