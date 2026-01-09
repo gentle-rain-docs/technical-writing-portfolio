@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: default
 title: "Kili Taylor – Technical Writer"
-subtitle: "Gentle, accessible documentation with a rain‑themed aesthetic"
 ---
 
 Welcome to my technical writing portfolio.
