@@ -1,6 +1,6 @@
 ---
-layout: page
-title: PokeAPI User Guide
+layout: default
+title: "PokeAPI Intro"
 ---
 
 # PokeAPI User Guide
