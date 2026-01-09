@@ -7,16 +7,23 @@
 
     {% seo %}
 
-    <!-- Load Minima’s default stylesheet -->
+    <!-- Minima default stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
-    <!-- Load your custom styles -->
+    <!-- Custom styles -->
     <style>
       {% include styles.css %}
     </style>
   </head>
 
   <body>
+
+    <!-- Animated raindrop background -->
+    <div class="raindrop-layer">
+      <div class="raindrop" style="left: 10%; animation-delay: 0s;"></div>
+      <div class="raindrop" style="left: 50%; animation-delay: 4s;"></div>
+      <div class="raindrop" style="left: 80%; animation-delay: 8s;"></div>
+    </div>
 
     {% include header.html %}
 
@@ -36,18 +43,6 @@
         I believe in transparency, integrity, and responsible use of modern tools.
       </p>
     </footer>
-    
-    <body>
-  <div class="raindrop-layer">
-    <div class="raindrop" style="left: 10%; animation-delay: 0s;"></div>
-    <div class="raindrop" style="left: 50%; animation-delay: 4s;"></div>
-    <div class="raindrop" style="left: 80%; animation-delay: 8s;"></div>
-  </div>
-
-  <div class="site">
-    {{ content }}
-  </div>
-</body>
 
   </body>
 </html>
