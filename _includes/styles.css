@@ -305,4 +305,5 @@ body {
   100% {
     transform: translate3d(-5vw, 110vh, 0);
   }
+   background-image: url("/assets/img/Copilot-20260108-165146.png");
 }
