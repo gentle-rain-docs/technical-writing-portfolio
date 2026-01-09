@@ -1,25 +1,11 @@
 title: Technical Writing Portfolio
 description: A collection of my technical writing samples.
 
-remote_theme: chrisrhymes/bulma-clean-theme
-
-bulma:
-  primary: "#C8A2C8"   # lavender
-  link: "#98FFCC"      # mint
-
-navbar:
-  - name: "Home"
-    link: /
-  - name: "Portfolio"
-    link: /writing-samples/
-  - name: "Resume"
-    link: /resume/
-  - name: "API Demos"
-    link: /api-demos/
+remote_theme: patdryburgh/hitchens
 
 markdown: kramdown
 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-  - jekyll-seo
+  - jekyll-seo-tag
