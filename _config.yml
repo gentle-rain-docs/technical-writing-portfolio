@@ -7,6 +7,16 @@ bulma:
   primary: "#C8A2C8"   # lavender
   link: "#98FFCC"      # mint
 
+navbar:
+  - name: "Home"
+    link: /
+  - name: "Portfolio"
+    link: /writing-samples/
+  - name: "Resume"
+    link: /resume/
+  - name: "API Demos"
+    link: /api-demos/
+
 markdown: kramdown
 
 plugins:
