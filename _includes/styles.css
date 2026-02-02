@@ -72,20 +72,35 @@ body a:focus,
 }
 
 /* Footer */
-footer,
-body footer {
-  color: var(--grey);
-  font-size: 0.9rem;
+.site-footer {
+  background-color: var(--background);
+  border-top: 1px solid #e5e7eb;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
 }
 
-footer a,
-body footer a {
+.site-footer .wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-description {
   color: var(--indigo);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
 }
 
-footer a:hover,
-footer a:focus {
-  color: var(--lavender-dark);
+.footer-disclaimer {
+  color: var(--grey);
+  font-size: 0.85rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.footer-disclaimer a {
+  color: var(--indigo);
 }
 
 /* Embedded widgets (API demos) */
