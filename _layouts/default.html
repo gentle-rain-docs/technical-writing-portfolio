@@ -2,12 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{{ page.title }}{% if page.title %} | {% endif %}{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% seo %}
 
-    <!-- Custom styles -->
+    <!-- Load Minima's default stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+    <!-- Load your custom styles -->
     <style>
       {% include styles.css %}
     </style>
@@ -15,32 +18,24 @@
 
   <body>
 
-    <!-- Animated raindrop background -->
-    <div class="raindrop-layer">
-      <div class="raindrop" style="left: 10%; animation-delay: 0s;"></div>
-      <div class="raindrop" style="left: 50%; animation-delay: 4s;"></div>
-      <div class="raindrop" style="left: 80%; animation-delay: 8s;"></div>
-    </div>
-
-    <!-- Bulma Clean Theme header -->
     {% include header.html %}
 
-    <section class="section">
-      <div class="container content">
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
         {{ content }}
       </div>
-    </section>
+    </main>
 
-    <!-- Bulma Clean Theme footer -->
-    {% include footer.html %}
-
-    <!-- AI Transparency Disclaimer -->
-    <footer class="footer has-text-centered">
-      <p>
-        This portfolio includes work created independently and work developed with the assistance of AI tools.
-        All content has been reviewed, edited, and verified by me to reflect my skills and voice.
-        I believe in transparency, integrity, and responsible use of modern tools.
-      </p>
+    <!-- Single footer: replaces minima's default so both don't stack -->
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p class="footer-description">{{ site.description }}</p>
+        <p class="footer-disclaimer">
+          This portfolio includes work created independently and work developed with the assistance of AI tools.
+          All content has been reviewed, edited, and verified by me to reflect my skills and voice.
+          I believe in transparency, integrity, and responsible use of modern tools.
+        </p>
+      </div>
     </footer>
 
   </body>
