@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Resume"
+title: Resume
+permalink: /resume/
 ---
 
 # Kili Taylor
